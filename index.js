@@ -22,16 +22,16 @@ const port = process.env.PORT || 6666;
 
 
 app.get('/', (req, res) => {
-  return res.status(200).json({ 
-    message: 'You are welcome to the Skelat Bank, We are here to put smile on your face.' });
+  return res.status(200).json(
+     '<hi>You are welcome to the Skelat Bank, We are here to put smile on your face.</hi>');
 });
 
 
 
-
+// mount
 app.use('/api/skelat', userRoutes);
 
-
+//404 page
 app.all('*', (req, res) => {
   res.status(404).json({ message: '👋🤚👋👋👋🤚oops page not found' });
 });

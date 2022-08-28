@@ -2,8 +2,9 @@
 <h3 align="center">A passionate Backend developer from Nigeria</h3>
 
 
-- 🔭 I’m currently working on [Skelat Bank App API](https://documenter.getpostman.com/view/18447128/VUxKSUQ7))
+- 🔭 I’m currently working on [Skelat Bank App API on POSTMAN](https://documenter.getpostman.com/view/18447128/VUxKSUQ7))
 - 🤝 I’m currently working on [My article on CRUD](https://dev.to/arosebine/what-is-a-crud-40h2)
+- 🤝 I’m currently working on [Skelat BankApp on Heroku](https://skelat.herokuapp.com/)
 
 The Stacks Used: 
 - nodejs

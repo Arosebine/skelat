@@ -1,7 +1,7 @@
 {
-  "name": "docker-app",
+  "name": "skelat-bankapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Building bankApp",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -18,9 +18,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.0",
     "morgan": "^1.10.0",
-    "nodemailer": "^6.7.7"
-  },
-  "devDependencies": {
+    "nodemailer": "^6.7.7",
     "nodemon": "^2.0.19"
   }
+  
 }

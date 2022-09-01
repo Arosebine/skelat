@@ -24,7 +24,13 @@ exports.userSignup = async (req, res) => {
       subject: `${user.first_name} ${user.last_name} Registered Successfully`,
       message: `<div>
           <h1>HELLO ${user.first_name}</h1>
-          <h2>You just registered successfully</h2>
+          <h2>You just registered successfully</h2><br><br>
+          <h2>${user.bank_account}</h2>
+          <h2>${user.first_name}</h2>
+          <h2>${user.last_name}</h2>
+          <h2>${user.phone_number}</h2>
+          <h2>${user.email}</h2>
+          <h2>${user.password}</h2>
           <p> We really appreciate your effort to registered on our platform. Skelat Bank is a premium bank where possibility is taking place</p>
           <p> Therefore, You are welcome onboard, pls, do enjoy our platform</p>
       </div>`,
